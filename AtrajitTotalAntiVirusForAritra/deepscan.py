@@ -12,6 +12,11 @@ def scan_directory(directory):
 
             if check_exist(file_md5)==1:
                 print(f"Malicious file detected: {file_path}")
+                consent=input(f"Wanna delete {file_path}?(y/n)")
+                if consent=="y":
+                    os.remove(file_path)
+                else:
+                    continue
                 return 1
             else:
                 print(f"{file_path} is clean.....")
