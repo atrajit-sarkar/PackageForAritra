@@ -1,6 +1,5 @@
 import hashlib
 import os
-import os
 
 
 #Making file hashesh.......

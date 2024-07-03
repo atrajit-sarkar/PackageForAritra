@@ -1,0 +1,2 @@
+screen_brightness_control==0.23.0
+pybrightness==0.5.1
