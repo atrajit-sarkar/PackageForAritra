@@ -19,7 +19,7 @@ while True:
     title = "{title}",
     message ="{message}",
     timeout ={timeout},
-    app_icon="{os.getcwd()}/WindowsNotification/icons/{app_icon}"
+    app_icon=r"{os.getcwd()}\icons\{app_icon}"
     )
     time.sleep({timesleep})
     '''
@@ -33,7 +33,7 @@ app_name="Python",
 title = "{title}",
 message ="{message}",
 timeout ={timeout},
-app_icon="{os.getcwd()}/WindowsNotification/icons/{app_icon}"
+app_icon=r"{os.getcwd()}\icons\{app_icon}"
 )
     '''
 
